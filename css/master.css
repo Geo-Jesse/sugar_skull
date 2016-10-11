@@ -27,7 +27,7 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Averia Serif Libre', cursive;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -54,14 +54,18 @@ a:focus {
   text-decoration: none;
   color: #1d9b6c;
 }
-.light {
-  font-weight: 400;
+.navbar-home-image {
+  max-height: 50px;
 }
+/*.light {
+  font-weight: 400;
+}*/
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 16px;
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
@@ -121,19 +125,27 @@ a:focus {
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+  .navbar-nav>li>a {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
 }
 .intro {
   display: table;
   width: 100%;
-  height: auto;
+  height: 500px;
+  /*height: auto;*/
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/colbybassrings.jpg) bottom center scroll;
   background-color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
 }
 .intro .intro-body {
@@ -158,6 +170,18 @@ a:focus {
     font-size: 26px;
   }
 }
+.hero {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+  -webkit-animation-duration: 5s;
+  /*opacity: 0.25;
+  filter: alpha(opacity=25);*/
+}
+/*.hero:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
+}*/
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -255,7 +279,7 @@ a:focus {
 }
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Averia Serif Libre', cursive;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
