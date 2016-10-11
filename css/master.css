@@ -54,9 +54,6 @@ a:focus {
   text-decoration: none;
   color: #1d9b6c;
 }
-/*.light {
-  font-weight: 400;
-}*/
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -155,9 +152,7 @@ a:focus {
   display: table-cell;
   vertical-align: middle;
 }
-/*.intro .intro-body .brand-heading {
-  font-size: 40px;
-}*/
+
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
@@ -187,87 +182,21 @@ a:focus {
   text-decoration: underline overline;
   -webkit-animation-duration: 5s;
 }
-/*.skull-button img {
-    margin: 0 auto;
-    max-height: 200px;
-    -webkit-animation-duration: 5s;
-}*/
-/*.btn-circle {
-  width: 70px;
-  height: 70px;
-  margin-top: 15px;
-  padding: 7px 16px;
-  border: 2px solid white;
-  border-radius: 100% !important;
-  font-size: 40px;
-  color: white;
-  background: transparent;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-}
-.btn-circle:hover,
-.btn-circle:focus {
-  outline: none;
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
-}
-.btn-circle i.animated {
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
-  -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 1s;
-}
-.btn-circle:hover i.animated {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-}*/
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@-moz-keyframes pulse {
-  0% {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  100% {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
-}
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+.news-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/case.jpg) no-repeat center center scroll;
   background-color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
 }
 #map {
@@ -279,7 +208,7 @@ a:focus {
   .content-section {
     padding-top: 100px;
   }
-  .download-section {
+  .news-section {
     padding: 100px 0;
   }
   #map {
