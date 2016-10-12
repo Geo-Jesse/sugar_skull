@@ -181,6 +181,7 @@ a:focus {
 .hero {
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 25px;
   max-width: 200px;
   -webkit-animation-duration: 5s;
 }
