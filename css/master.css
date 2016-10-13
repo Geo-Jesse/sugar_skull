@@ -166,6 +166,7 @@ a:focus {
 }
 @media (min-width: 768px) {
   .intro {
+    background-attachment: absolute;
     height: 100%;
     padding: 0;
   }
