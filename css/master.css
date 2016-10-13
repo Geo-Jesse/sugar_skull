@@ -261,7 +261,7 @@ a:focus {
   padding: 50px 0;
   color: white;
   background: url(../img/sugarwall_rev.jpg) no-repeat center center scroll;
-  background-attachment: fixed;
+  background-attachment: absolute;
   background-position: center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -273,7 +273,7 @@ a:focus {
     background-attachment: fixed;
   }
 }
-.contact-section {
+.links-section {
   padding-bottom: 100px;
   padding-top: 50px;
   color: white;
