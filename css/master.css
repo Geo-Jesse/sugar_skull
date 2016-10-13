@@ -167,8 +167,6 @@ a:focus {
 @media (min-width: 768px) {
   .intro {
     background-attachment: fixed;
-    height: 100%;
-    padding: 0;
   }
   .intro .intro-body {
     font-size: 100px;
@@ -228,8 +226,6 @@ a:focus {
 @media (min-width: 768px) {
   .news-section {
     background-attachment: fixed;
-    height: 100%;
-    padding: 0;
   }
 }
 .facebook-iframe {
@@ -280,8 +276,6 @@ a:focus {
 @media (min-width: 768px) {
   .about-section {
     background-attachment: fixed;
-    height: 100%;
-    padding: 0;
   }
 }
 .contact-section {
