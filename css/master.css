@@ -142,7 +142,7 @@ a:focus {
 .intro {
   display: table;
   width: 100%;
-  /*height: inherit;*/
+  height: inherit;
   padding: 100px 0;
   text-align: center;
   color: white;
@@ -155,7 +155,7 @@ a:focus {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  /*max-width: 100%;*/
+  max-width: 100%;
 }
 .intro .intro-body {
   display: table-cell;
@@ -221,10 +221,10 @@ a:focus {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 }
 .facebook-iframe {
   padding-bottom: 50px;
