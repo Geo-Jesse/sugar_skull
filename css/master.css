@@ -255,7 +255,7 @@ a:focus {
     max-width: 340px;
   }
   .music-section {
-    background: none;
+    /*background: none;*/
     /*background-color: black;*/
   }
 }
