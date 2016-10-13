@@ -190,9 +190,7 @@ a:focus {
   text-decoration: underline overline;
   -webkit-animation-duration: 5s;
 }
-/*.content-section {
-  padding-top: 50px;
-}*/
+
 .music-section {
   width: 100%;
   padding: 50px 0;
@@ -209,8 +207,11 @@ a:focus {
 }
 .soundcloud-iframe {
   padding-bottom: 50px;
+  padding: 25px;
 }
 .news-section {
+  margin: 0 auto;
+  text-align: center;
   width: 100%;
   padding: 50px 0;
   color: white;
@@ -224,16 +225,36 @@ a:focus {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-
 .facebook-iframe {
   padding-bottom: 50px;
+  margin: 0 auto;
+  min-height: 500px;
+  padding: 25px;
 }
-@media (max-width: 767px) {
+.trackartist-iframe {
+  padding-bottom: 50px;
+  margin: 0 auto;
+  min-height: 50px;
+  padding: 25px;
+}
+.bandsintown-iframe {
+  padding-bottom: 50px;
+  margin: 0 auto;
+  min-height: 250px;
+  padding: 25px;
+}
+
+@media (max-width: 768px) {
   .facebook-iframe {
+    max-width: 340px;
     display:none;
   }
   .bandsintown-iframe {
-    padding-bottom: 250px;
+    max-width: 340px;
+    /*float: none;*/
+  }
+  .trackartist-iframe {
+    display: none;
   }
   .music-section {
     background: none;
