@@ -256,7 +256,7 @@ a:focus {
   }
   .music-section {
     background: none;
-    background-color: black;
+    /*background-color: black;*/
   }
 }
 .about-section {
