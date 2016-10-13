@@ -142,11 +142,11 @@ a:focus {
 .intro {
   display: table;
   width: 100%;
-  height: inherit;
+  /*height: inherit;*/
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/colbybassrings.jpg) bottom center scroll;
+  background: url(../img/colbybassrings.jpg) no-repeat bottom center scroll;
   background-color: black;
   background-attachment: fixed;
   background-position: center;
@@ -155,7 +155,7 @@ a:focus {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 .intro .intro-body {
   display: table-cell;
@@ -244,7 +244,6 @@ a:focus {
   min-height: 250px;
   padding: 25px;
 }
-
 @media (max-width: 768px) {
   .facebook-iframe {
     max-width: 340px;
@@ -252,11 +251,8 @@ a:focus {
   }
   .bandsintown-iframe {
     max-width: 340px;
-    /*float: none;*/
   }
-  .trackartist-iframe {
-    display: none;
-  }
+
   .music-section {
     background: none;
     background-color: black;
