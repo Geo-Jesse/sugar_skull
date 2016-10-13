@@ -269,7 +269,7 @@ a:focus {
   padding: 50px 0;
   color: white;
   background: url(../img/sugarwall.jpg) no-repeat center center scroll;
-  background-color: black;
+  /*background-color: black;*/
   background-attachment: absolute;
   background-position: center center;
   background-repeat: no-repeat;
