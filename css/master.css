@@ -151,11 +151,10 @@ a:focus {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  max-width: 100%;
 }
 .intro .intro-body {
   display: table-cell;
