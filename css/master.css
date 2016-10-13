@@ -155,6 +155,7 @@ a:focus {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  max-width: 100%;
 }
 .intro .intro-body {
   display: table-cell;
