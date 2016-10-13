@@ -190,6 +190,8 @@ a:focus {
   -webkit-animation-duration: 5s;
 }
 .music-section {
+  margin: 0 auto;
+  text-align: center;
   width: 100%;
   padding: 50px 0;
   color: white;
@@ -205,7 +207,8 @@ a:focus {
 }
 .soundcloud-iframe {
   padding-bottom: 50px;
-  padding: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .news-section {
   margin: 0 auto;
@@ -214,8 +217,8 @@ a:focus {
   padding: 50px 0;
   color: white;
   background: url(../img/silhouette.jpg) no-repeat center center scroll;
-  /*background-color: black;*/
-  background-attachment: absolute;
+  background-color: black;
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -255,8 +258,8 @@ a:focus {
     max-width: 340px;
   }
   .music-section {
-    /*background: none;*/
-    /*background-color: black;*/
+    background: none;
+    background-color: black;
   }
 }
 .about-section {
@@ -265,7 +268,7 @@ a:focus {
   color: white;
   background: url(../img/sugarwall.jpg) no-repeat center center scroll;
   background-color: black;
-  background-attachment: absolute;
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -273,11 +276,11 @@ a:focus {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .about-section {
     background-attachment: fixed;
   }
-}
+}*/
 .contact-section {
   padding-bottom: 100px;
   padding: 50px 0;
